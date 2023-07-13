@@ -1,0 +1,188 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+
+}
+
+
+
+
+header{
+
+     display: flex;
+     justify-content: space-between;
+     height: 15vh;
+     margin: auto;
+     align-items: center;
+     background-color: beige;
+
+}
+
+
+header .logo img{
+
+    mix-blend-mode: color-burn;
+    width: 300px;
+    
+}
+
+
+
+
+header .navbar ul li{
+
+    display: inline-block;
+    justify-content: space-between;
+    margin-right:  20px ;
+    font-size: 19px;
+    position: relative;
+
+}
+
+header .navbar ul li::after{
+    
+    position: absolute;
+    width: 0;
+    content: '';
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    background: rgb(211, 146, 25);
+    transition: 0.5s;
+
+}
+
+header .navbar ul li:hover::after{
+
+    width: 100%;
+
+
+}
+header .navbar ul li a{
+
+    text-decoration: none;
+    color: rgb(167, 141, 107);
+}
+
+
+
+main{
+
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+
+main .goku{
+
+    width: 400px;
+}
+
+main .heading img{
+
+    width: 600px;
+    mix-blend-mode:color-burn;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+
+.hero2 .vegeta img{
+    
+    width: 400px;
+}
+
+
+
+.hero2 .heading2 img{
+
+    mix-blend-mode: color-burn;
+    width: 280px;
+    padding-top: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+.hero3 .heading3 img{
+
+    width: 300px;
+    mix-blend-mode: color-burn;
+   padding-top: 200px;
+   margin-left: 100px;
+}
+
+
+.hero3 .gohan img{
+
+    padding-top: 100px;
+}
+
+
+.hero4{
+
+    height: 120vh;
+}
+
+.hero4 .frieza img{
+
+    width: 600px;
+    padding-top: 150px;
+
+}
+
+
+.hero4 .heading4 img{
+
+    width: 200px;
+    mix-blend-mode: color-burn;
+}
+
+
+
+
+.hero5 .heading5 img{
+
+    width: 300px;
+    mix-blend-mode: color-burn;
+    padding-top: 150px;
+}
+
+.hero5 .bulma img{
+
+    /* padding-top: 250px; */
+    margin-left: 700px;
+    width: 320px;
+}
+
+
+
+footer{
+
+    height: 15vh;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+}
+
+footer .foot-img img{
+
+    width: 300px;
+    mix-blend-mode: color-burn;
+}
+
+
+footer .content {
+
+    padding-top: 70px;
+    margin-left: 300px;
+    color: rgb(122, 101, 62);
+}
